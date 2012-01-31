@@ -1,0 +1,45 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.68.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 2dfb695bf7240e731b4ae3b00e8fb197b1e3bbeb Build.PL
+SHA1 8990926aa378a7beefce6987b6135c8e9cbb57cc Changes
+SHA1 dca45f1350694a55d494910375d4c0f5b81a70b4 INSTALL
+SHA1 33260abc93b43a44581b0b6263d7e4318f4122bb LICENSE
+SHA1 256f2faae5cd0033207791a657e9e4024411d199 MANIFEST
+SHA1 ddcedab094c480d0920667d2353c7265153fbf51 MANIFEST.SKIP
+SHA1 08a654343941c3836d1213a92f23e0822e0062f5 META.json
+SHA1 fbc4a49d2ee30971336756f51f35514550e7c0af META.yml
+SHA1 a54e9cda4de1e8782150b35399ff09aa82c19790 README
+SHA1 8700f2a68b626bd18bd1d846c0d20ed5f5f5769c README.mkdn
+SHA1 8a35b2e8becdde50fdd49dab0614cc22023fd257 dist.ini
+SHA1 0c73be26400c5b2a19072fdbc07aa03ba139505c lib/Perl/Achievements.pm
+SHA1 61f7332a82084e84a5728de21b906de4241e5400 lib/Perl/Achievements/Achievement.pm
+SHA1 1d92609924f7ceb4f47f8e0ffb70e20d4180395a lib/Perl/Achievements/Achievement/Cryptomancer.pm
+SHA1 faa7057d109ebff6a367ca694aa8a37aa69a240f lib/Perl/Achievements/Achievement/PerlAchiever.pm
+SHA1 9ebbcf8306c073d005a2d147def1f17a2bdabcd5 lib/Perl/Achievements/Achievement/PerlHacker.pm
+SHA1 302ddd962cfd08d346f982b0eab168e8f84bdcb8 lib/Perl/Achievements/Command.pm
+SHA1 f8e6ee6b5b42c30ef47fd39fd21ee7b0e8aa399e lib/Perl/Achievements/Command/init.pm
+SHA1 608cb73fba98987622c5abd1e471d496e0ed204b lib/Perl/Achievements/Command/scan.pm
+SHA1 67ae6e757505dc122fc6fd6dcdb6c9c9ec3fecbc lib/Perl/Achievements/Role/ConfigItem.pm
+SHA1 fa363a710371a73dcfb543778793e05e3786b7ac scripts/perlacheivements
+SHA1 473906254ecd96009795d4b7fbc82fac48c03ecd t/000-report-versions.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.11 (GNU/Linux)
+
+iEYEARECAAYFAk8nSJYACgkQ34Hwf+GwC4zCLQCg4utg6l54IgHe/KBCEns8u1WP
+sCAAoIHo57szNL4BOZRbA9LkwIETuy70
+=6Qys
+-----END PGP SIGNATURE-----
